@@ -1,0 +1,234 @@
+﻿@charset "utf-8";
+@import url("cw_layout.css"); 
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Civil War History Style Sheet
+   Author: Hoi Ming Sze
+   Date:   10 Jun 2022
+   Filename: cw_styles.css
+
+*/ 
+
+
+
+/* Structural Styles */ 
+
+
+
+html {
+    background-color: rgb(151,151,151);
+}
+    
+
+
+/* Body Header Styles */
+
+body {
+background-color: rgb(180,180,223);
+font-family: Verdana, "Geneva", sans-serif;
+}  
+
+body > h1 , h2 {
+    font-weight: normal;
+}
+
+
+body > header > nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+   
+    font-size: 0.8em;
+	background-color: rgb(101,101,101);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+}
+
+
+body > header {
+
+    background-color: rgb(97,97,211);
+   
+    
+}
+
+
+
+body > header > h1 {
+    font-size: 4vw; 
+    color: rgba(255,255,255,0.8);
+    margin: 0px;
+    font-family: Limelight, cursive;
+ 
+  
+}
+
+body > header> h1 > span {
+    color: rgba(255,255,255,0.4);
+    
+}
+
+
+
+
+/* Navigation Styles */
+
+
+
+
+#mainLinks  {
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+     
+    }
+
+    body > header > nav > ul > li > a {
+        color: white;
+    }
+
+    body > header > nav > ul > li > a:visited{
+        color: white;
+    }
+
+    body > header > nav > ul > li >  a:hover, nav ul li a:active {
+        color: white;
+        font: 0.8;
+        background-color: rgba(51,51,51,0.5);
+    }
+
+
+
+
+
+/* Outline Styles */
+
+#outline {
+    color: rgb(51,51,51);
+    font-size: 0.8em;
+    
+    
+
+    }
+
+    #outline > h1{
+        text-align:center;
+        
+    }
+
+    #outline > ol > li {
+        line-height: 2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;     
+        list-style-type: upper-roman;
+        text-decoration: none;
+
+
+       
+        }
+
+        #outline ol > li > a {
+            color: rgb(51,51,51);
+            line-height: 2em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 5px;
+            margin-right: 5px;     
+            
+            text-decoration: none;
+         
+        }       
+
+    #outline > ol > li > ol > li{
+    list-style-type: upper-alpha;
+        }
+
+
+
+    #outline > ol > li > ol >li > a:link{
+        color: rgb(101,101,101);
+        text-decoration: none;
+        display: inline-block;
+       
+
+    }
+
+    #outline > ol > li > ol > li> a:visited{
+        color: rgb(101,101,101);
+        text-decoration: none;   
+        
+
+    }
+
+   
+    #outline > ol > li > ol >li> a:hover{
+        color: rgb(97,97,211);
+        background-color: rgba(51,51,51,0.5);
+        
+        
+
+    }
+
+    #outline > ol > li > ol > li> a:active {
+        color: rgb(97,97,211);
+        background-color: rgba(51,51,51,0.5);
+        
+        
+
+    }
+
+
+/* Section Styles */
+
+section {
+    background-color: rgb(220,220,220);
+    
+    }
+
+section > header > h1 {
+    font-size: 2.2em;
+    padding-left: 10px;
+ 
+    
+}
+
+
+/* Article Styles */
+
+
+
+article > p:first-of-type::first-letter{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+article > h2 {
+    font-size: 1.4em;
+
+}
+
+
+/* Aside Styles */
+
+aside{
+    font-size: 0.9em;
+}
+
+aside > h1 {
+    font-size: 1.4em;
+    text-align:center;
+
+
+}
+
